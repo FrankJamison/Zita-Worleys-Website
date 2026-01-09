@@ -1,0 +1,122 @@
+/************************************************/
+/* Page Styles                                  */
+/************************************************/
+
+@page {
+    size: 8.5in 11in portrait;
+}
+
+#header,
+#welcome,
+#courses,
+#links,
+#textbooks,
+#hardcopy,
+#browsers,
+#software,
+#images,
+#footer {
+    display: none;
+}
+
+.pageBreak {
+    page-break-before: always;
+}
+
+body {
+    font-family: Georgia, "Times New Roman", Times, serif;
+    font-size: 12pt;
+    text-align: justify;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+}
+
+h1 {
+    font-size: 16pt;
+    font-weight: bold;
+    text-align: center;
+}
+
+h2,
+h4 {
+    font-size: 14pt;
+    font-weight: bold;
+    text-align: center;
+}
+
+h3 {
+    font-size: 12pt;
+    font-weight: bold;
+    page-break-after: avoid;
+}
+
+p.quote {
+    margin-left: 1.5em;
+    margin-right: 1.5em;
+}
+
+ul.gradeScale {
+    list-style: none;
+}
+
+table.points {
+    font-size: 1em;
+    margin-left: 25px;
+    width: 450px;
+}
+
+td.total {
+    border-top: 1px solid black;
+}
+
+table.schedule {
+    font-size: 8pt;
+    text-align: left;
+    width: 100%
+}
+
+th {
+    text-align: center;
+}
+
+td.bulliet {
+    text-align: left;
+    width: 85px;
+}
+
+td.date {
+    text-align: center;
+    width: 95px;
+}
+
+td.kishlansky {
+    text-align: left;
+    width: 150px;
+}
+
+td.other {
+    text-align: center;
+    width: 65px;
+}
+
+td.reilly {
+    text-align: left;
+    width: 150px;
+}
+
+td.week {
+    text-align: center;
+    width: 35px;
+}
+
+.printCap {
+    text-transform: uppercase
+}
+
+#contact p {
+    margin-top: .5em;
+    margin-bottom: .5em;
+}

@@ -1,0 +1,30 @@
+# OS / editor
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# VS Code
+.vscode/*.log
+
+# Dreamweaver sync/metadata
+**/_notes/
+**/dwsync.xml
+
+# Common local artifacts
+*.bak
+*.tmp
+# OS / editor
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# VS Code
+.vscode/*.log
+
+# Dreamweaver sync/metadata
+**/_notes/
+**/dwsync.xml
+
+# Common local artifacts
+*.bak
+*.tmp

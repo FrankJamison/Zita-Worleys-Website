@@ -1,0 +1,40 @@
+body {
+    font-size: 13pt;
+}
+
+h1 {
+    font-size: 17pt;
+}
+
+h2,
+h4 {
+    font-size: 15pt;
+}
+
+h3 {
+    font-size: 13pt;
+}
+
+table.points {
+    margin-left: 25px;
+    width: 550px;
+}
+
+table.schedule {
+    font-size: 9pt;
+}
+
+td.bulliet {
+    text-align: left;
+    width: 95px;
+}
+
+td.kishlansky {
+    text-align: left;
+    width: 165px;
+}
+
+td.reilly {
+    text-align: left;
+    width: 165px;
+}

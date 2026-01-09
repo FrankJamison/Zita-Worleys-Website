@@ -1,0 +1,219 @@
+/*********************************************/
+/* Jam Express Drop-Down Menu 1.0 Stylesheet */
+/* Created by Frank Jamison                  */
+/* August 17, 2006                           */
+/* All Rights Reserved                       */
+/* Used with Permission                      */
+/*********************************************/
+
+/* Global Menu Styles */
+#jamExpressMenu {
+    border-top: 1px solid #333333;
+    border-bottom: 1px solid #333333;
+    background-repeat: repeat-x;
+    clear: right;
+    height: 22px;
+    /* Height */
+}
+
+.clearit {
+    clear: both;
+    height: 0;
+    line-height: 0.0;
+    font-size: 0;
+}
+
+/* Top Menu Styles */
+#topMenu {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: .8em;
+    list-style: none;
+    margin: auto;
+    padding: 0px;
+    width: 842px;
+}
+
+#topMenu1 {
+    width: 91px;
+}
+
+#topMenu1 a {
+    background-color: transparent;
+    width: 64px;
+}
+
+#topMenu2 {
+    width: 160px;
+}
+
+#topMenu2 a {
+    width: 133px;
+}
+
+#topMenu3 {
+    width: 160px;
+}
+
+#topMenu3 a {
+    width: 133px;
+}
+
+#topMenu4 {
+    width: 160px;
+}
+
+#topMenu4 a {
+    width: 133px;
+}
+
+#topMenu5 {
+    width: 160px;
+}
+
+#topMenu5 a {
+    width: 133px;
+}
+
+#topMenu6 {
+    width: 91px;
+}
+
+#topMenu6 a {
+    background-color: transparent;
+    width: 64px;
+}
+
+.dropdown {
+    border-left: 1px solid #333333;
+}
+
+.static {
+    border-left: 1px solid #333333;
+}
+
+.topMenuLink {
+    float: left;
+    /* Menu Alignment */
+    background-image: url(../images/background_menuTop.jpg);
+}
+
+.topMenuLink:hover .subMenu {
+    display: block;
+}
+
+.topMenuLink a {
+    color: #5d5d5d;
+    display: block;
+    font-weight: bold;
+    padding: 3px 16px 3px 10px;
+    /* Height */
+    text-decoration: none;
+}
+
+.topMenuLink a:hover {
+    color: #000000;
+    background-color: #bbc19f;
+    background-image: url(../images/background_menuTopHover.jpg);
+}
+
+.topMenuLink a:active,
+.topMenuLink a:focus {
+    background-image: url(../images/background_menuTopHover.jpg);
+    color: #000000;
+}
+
+.topMenuLink a.dropdown:hover {
+    background-image: url(../images/background_menuTopHover.jpg);
+    border-left: 1px solid #333333;
+}
+
+.topMenuLink a.static {
+    text-align: center;
+}
+
+.topMenuLink a.static:hover {
+    background-image: url(../images/background_menuTopHover.jpg);
+    border-left: 1px solid #333333;
+}
+
+.topMenuLink a.dropdown {
+    background-image: url(../images/background_dropdownArrow.gif);
+    background-position: right center;
+    background-repeat: no-repeat;
+    text-align: center;
+}
+
+.endSpace {
+    /*border-right: 1px solid #333333;*/
+    display: block;
+    float: right;
+    /* Menu Alignment */
+    height: 22px;
+    /* Height */
+    width: 10px;
+}
+
+/* Sub Menu Styles */
+#subMenu2,
+#subMenu2 .subMenuLink {
+    width: 161px;
+}
+
+#subMenu2 .subMenuLink a {
+    width: 153px;
+}
+
+#subMenu3,
+#subMenu3 .subMenuLink {
+    width: 161px;
+}
+
+#subMenu3 .subMenuLink a {
+    width: 153px;
+}
+
+.subMenu {
+    background-color: #DAD09B;
+    background-image: url(../images/background_submenu.jpg);
+    border-bottom: 1px solid #333333;
+    display: none;
+    font-family: Arial, Helvetica, sans-serif;
+    list-style: none;
+    margin: 0px;
+    margin-left: 0px;
+    padding: 0px;
+    position: absolute;
+}
+
+.subMenu a {
+    border-left: 1px solid #333333;
+    border-right: 1px solid #333333;
+}
+
+.subMenu a:hover {
+    background-color: #5d5d5d;
+    background-image: none;
+    color: white;
+}
+
+.subMenuLink {
+    float: right;
+}
+
+/* Menu Alignment */
+
+.subMenuLink a {
+    background-color: transparent;
+    border-top: 1px solid #333333;
+    color: #000000;
+    font-weight: normal;
+    padding: 3px;
+    /* Height */
+}
+
+.subMenuLink a:active,
+.subMenuLink a:focus {
+    background-image: none;
+    background-color: #5d5d5d;
+    color: #ffffff;
+}
