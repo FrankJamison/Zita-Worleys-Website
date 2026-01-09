@@ -75,8 +75,3 @@ Any static server will work; here are a few common choices:
 ## Browser compatibility
 
 This site contains legacy patterns (including older JavaScript and IE-related print support). Modern browsers should still render it, but layout/print behavior may differ slightly from the original environment.
-
-## Goals / non-goals
-
-- **Goal:** Preserve and present the site as an archive/portfolio artifact.
-- **Non-goal:** Modernize the tech stack or introduce a build pipeline (unless explicitly desired).
