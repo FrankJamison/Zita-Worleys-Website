@@ -1,6 +1,8 @@
-# 2006-ZitaWorley (Static Site Archive)
+# ZIta Worley | History Professor
 
-This repository is a static HTML/CSS/JavaScript website (originally built in the mid‑2000s style) and preserved here as an archival/portfolio snapshot.
+Static HTML/CSS/JavaScript website (mid‑2000s style) preserved as an archival/portfolio snapshot.
+
+- Live Preview: https://zitaworley.fcjamison.com/
 
 It is **not** a Node/React/etc. application—there is no build step and no package manager configuration. The pages can be opened directly in a browser or served by any simple static web server.
 
@@ -39,9 +41,9 @@ Assets and supporting files:
 
 Notes folders (e.g. `_notes/dwsync.xml`) are editor metadata and can be ignored for most development tasks.
 
-## How to view the site
+## How to view the site (dev)
 
-Because this is a static site, you have two straightforward options.
+Because this is a static site, you have a few straightforward options.
 
 ### Option A: Open the files directly
 
@@ -50,7 +52,15 @@ Because this is a static site, you have two straightforward options.
 
 This is the fastest approach, but be aware that some browsers apply stricter rules to JavaScript when opening files via `file://`.
 
-### Option B: Serve with a simple static web server (recommended)
+### Option B: Use the local dev URL (recommended if you have a local web server)
+
+This workspace is commonly served locally at:
+
+- http://zitaworley.localhost/
+
+In VS Code, you can run the task **Open in Browser** to open that URL in Chrome. If you don’t have a local web server mapping this folder to that URL, use Option C.
+
+### Option C: Serve with a simple static web server
 
 Running a local static server avoids most `file://` restrictions.
 
